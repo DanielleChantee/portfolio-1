@@ -32,3 +32,8 @@ a {
   text-decoration: none;
   width: 50%;
 }
+
+b {
+    font-size: 25px;
+    font-weight: bold;
+        }
