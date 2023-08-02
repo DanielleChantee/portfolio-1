@@ -21,12 +21,12 @@ a.navbar-brand.ms-4 {
 }
 
 /* Animations */
-span, #section1, #section2, #section3, #section4 {
+span, #main, #section1, #section2, #section3, #section4 {
     animation: slide-up 1s forwards;
   }
 
 .nav-item {
-  font-size: 0.8rem !important;
+  font-size: 0.9rem !important;
 }
 
 .nav-link {
