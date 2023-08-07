@@ -1,324 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danielle Adeyemo</title>
-    <link rel="icon" type="image" href="https://daniellechantee.github.io/portfolio-1/images/d.png">
-    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <!-- Font -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9a15415fda.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-    </head>
-<body>
-    
-   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair:wght@400;700&display=swap"
+      rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
 
 
 
-      <nav class="navbar navbar-expand-md navbar-dark" aria-label="Fourth navbar example">
+    <div id="introduction-section" class="introduction-section container-fluid"
+      style="background-image: url('/images/mountain.jpg'); height: 100vh">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
-          <a class="navbar-brand ms-4" href="/portfolio-1/">Danielle</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-    
-          <div class="collapse navbar-collapse" id="navbarsExample04">
-            <ul class="navbar-nav ms-auto me-4 mb-2 mb-md-0">
-              <li class="nav-item"><a href="#section1" class="nav-link active" aria-current="page">CLIENTS</a></li>
-            <li class="nav-item"><a href="#section2" class="nav-link">PROJECTS</a></li>
-            <!-- <li class="nav-item"><a href="#section3" class="nav-link">OTHER WORK</a></li> -->
-            <li class="nav-item"><a href="#section4" class="nav-link">FIGMA</a></li>
-            <!-- <li class="nav-item"><a href="#" class="nav-link">Contact</a></li> -->
 
-          </ul>
-            
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#clients">CLIENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#projects">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#figma">FIGMA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#skills">SKILLS</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
 
 
-      <div id="main">
-     <div class="container">
-      <div class="row">
-        <div class="col-md-6 m-auto">
-          <div class="container">
-            <div class="p-5 text-center rounded-3">
-              <h1 class="">Hi I'm Danielle</h1>
+      <!----------------------------------------------- Introduction -->
 
-              <div class="custom-container">
-                <p>A <span class="custom-typed-text"></span><span class="custom-cursor">&nbsp;</span></p>
-              </div>
-              
 
-           
+      <div class="d-flex flex-column align-items-center justify-content-center">
+        <h1 class="">Danielle</h1>
+        <h2 class="">WEB DEVELOPER</h2>
+        <button class="button"><a href="#portfolio">View Portfolio</a></button>
+      </div>
+
+
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+
+      <!-- ------------------------------------- Clients -->
+      <div id="clients" class="bg-black">
+        <div class="container px-4 py-5" id="">
+          <h2 class="pb-2 border-bottom">Clients</h2>
+
+          <div
+            class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 d-flex align-items-center justify-content-center">
+            <div class="col align-items-start">
+              <!-- Link -->
+              <a href="https://www.petspurest.com/" target="_blank">
+                <!-- Image -->
+                <img src="https://daniellechantee.github.io/portfolio-1/images/pets-purest.png"
+                  class=" img-fluid  img-thumbnail" alt="pets-purest">
+                <div>
+                  <h4 class="mb-0">Pets Purest</h4>
+                  <p>
+
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col align-items-start">
+              <!-- Link -->
+              <a href="https://www.fudgekitchen.co.uk/" target="_blank">
+                <!-- Image -->
+                <img src="https://daniellechantee.github.io/portfolio-1/images/fudge-kitchen.png"
+                  class=" img-fluid  img-thumbnail" alt="fudge-kitchen">
+                <div>
+                  <h4 class="mb-0">Fudge Kitchen</h4>
+                  <p>
+
+                  </p>
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+          <div
+            class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 pb-5 d-flex align-items-center justify-content-center">
+            <div class="col align-items-start">
+              <!-- Link -->
+              <a href="https://adiosplastic.co.uk/" target="_blank">
+                <!-- Image -->
+                <img src="https://daniellechantee.github.io/portfolio-1/images/adios.png"
+                  class=" img-fluid  img-thumbnail" alt="">
+                <div>
+                  <h4 class="mb-0">Adios</h4>
+                  <p>
+                    <br>
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col align-items-start">
+              <!-- Link -->
+              <a href="https://bottlebrush-ferments-uk.myshopify.com/" target="_blank">
+                <!-- Image -->
+                <img src="https://daniellechantee.github.io/portfolio-1/images/bottlebrush-ferments.png"
+                  class=" img-fluid  img-thumbnail" alt="bottlebrush-ferments">
+                <div>
+                  <h4 class="mb-0">Bottlebrush Ferments</h4>
+                  <p>
+                    Password: bottlebrush
+                  </p>
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+
+          <div
+            class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 pb-5 d-flex align-items-center justify-content-center">
+            <div class="col align-items-start">
+              <!-- Link -->
+              <a href="https://bubbl.tech/" target="_blank">
+                <!-- Image -->
+                <img src="https://daniellechantee.github.io/portfolio-1/images/bubbl.png"
+                  class=" img-fluid  img-thumbnail" alt="bubbl">
+                <div>
+                  <h4 class="mb-0">Bubbl</h4>
+                  <p>
+
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col align-items-start">
+              <!-- Link -->
+              <a href="https://www.4youngminds.com/" target="_blank">
+                <!-- Image -->
+                <img src="https://daniellechantee.github.io/portfolio-1/images/4-young-minds.png"
+                  class=" img-fluid  img-thumbnail" alt="4-young-minds">
+                <div>
+                  <h4 class="mb-0">4 Young Minds</h4>
+                  <p>
+
+                  </p>
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- -------------------------------------------- Projects -->
+      <div id="projects" class="bg-black">
+        <div class="container px-4 pb-5" id="">
+          <h2 class="pb-2 border-bottom">Projects</h2>
+
+          <div
+            class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 d-flex align-items-center justify-content-center">
+            <div class="col align-items-start">
+              <!-- Link -->
+              <a href="https://daniellechantee.github.io/double-vertical-slider/" target="_blank">
+                <!-- Image -->
+                <img src="https://daniellechantee.github.io/portfolio-1/images/double-vertical-slider.png"
+                  class=" img-fluid  img-thumbnail" alt="double-vertical-slider">
+                <div>
+                  <h4 class="mb-0">HTML, CSS, JavaScript</h4>
+                  <p>
+
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col align-items-start">
+              <!-- Link -->
+              <a href="https://daniellechantee.github.io/AboutMe1/" target="_blank">
+                <!-- Image -->
+                <img src="https://daniellechantee.github.io/portfolio-1/images/about.png"
+                  class=" img-fluid  img-thumbnail" alt="about">
+                <div>
+                  <h4 class="mb-0">HTML, CSS</h4>
+                  <p>
+
+                  </p>
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+
+      <div id="figma" class="bg-black">
+        <div class="container px-4 pb-5" id="">
+          <h2 class="pb-2 border-bottom">Figma</h2>
+
+          <div
+            class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 d-flex align-items-center justify-content-center">
+            <div class="col align-items-start">
+              <!-- Link -->
+              <a href="https://www.figma.com/proto/FcOWPlTm2ChmxEiizrYWuH/Bottlebrush-Ferments?type=design&node-id=5-2719&t=sXf5Q4AIsjLGkSd3-0&scaling=scale-down-width&page-id=10%3A54"
+                target="_blank">
+                <!-- Image -->
+                <img src="https://daniellechantee.github.io/portfolio-1/images/figma-bottlebrush-ferments.png"
+                  class=" img-fluid  img-thumbnail" alt="figma-bottlebrush-ferments">
+                <div>
+                  <h4 class="mb-0">Figma Bottlebrush Ferments</h4>
+                  <p>
+
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col align-items-start">
+              <!-- Link -->
+              <a href="https://www.figma.com/proto/EUdVDCAFUsVUNgh30T29ET/Furniture-Store-Website?node-id=1-5&scaling=scale-down"
+                target="_blank">
+                <!-- Image -->
+                <img src="https://daniellechantee.github.io/portfolio-1/images/figma-example-furniture-store.png"
+                  class=" img-fluid  img-thumbnail" alt="figma-example-furniture-store">
+                <div>
+                  <h4 class="mb-0">Figma Furniture Store Design</h4>
+                  <p>
+
+                  </p>
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+
+    <!--------------------------------------------------- Skills -->
+    <div id="skills" class="skills">
+      <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom">Skills</h2>
+
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-5 row-cols-lg-5 g-4 py-5">
+          <div class="col d-flex flex-column align-items-center text-center">
+            <i class="fa-brands fa-html5"></i>
+            <div>
+              <h4 class="mb-0">HTML</h4>
+              <p></p>
             </div>
           </div>
-        </div>
-    
-        <div class="col-md-6">
 
-          <div class="m-5">
-          <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light">
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light">
-              <div class="carousel-inner">
-
-                <div class="carousel-item active">
-                  <a href="https://www.petspurest.com/" target="_blank">
-                  <img src="https://daniellechantee.github.io/portfolio-1/images/pets-purest.png" class="figure-img img-fluid rounded img-thumbnail" alt="pets-purest">        
-                  <div class="container">
-                  </div>
-                  </a>
-                </div>
-
-               
-                <div class="carousel-item">
-                  <a href="https://adiosplastic.co.uk/" target="_blank">
-                  <img src="https://daniellechantee.github.io/portfolio-1/images/adios.png" class="figure-img img-fluid rounded img-thumbnail" alt="pets-purest">
-                  </a>
-                </div>
-
-                <div class="carousel-item">
-                  <a href="https://bottlebrush-ferments-uk.myshopify.com/" target="_blank">
-                  <img src="https://daniellechantee.github.io/portfolio-1/images/bottlebrush-ferments.png" class="figure-img img-fluid rounded img-thumbnail" alt="pets-purest">
-                  </a>
-                </div>
-
-              </div>
-             
+          <div class="col d-flex flex-column align-items-center text-center">
+            <i class="fa-brands fa-css3-alt"></i>
+            <div>
+              <h4 class="mb-0">CSS</h4>
+              <p></p>
             </div>
           </div>
-        </div>
 
+          <div class="col d-flex flex-column align-items-center text-center">
+            <i class="fa-brands fa-js"></i>
+            <div>
+              <h4 class="mb-0">JavaScript</h4>
+              <p></p>
+            </div>
           </div>
+
+          <div class="col d-flex flex-column align-items-center text-center">
+            <i class="fa-brands fa-bootstrap"></i>
+            <div>
+              <h4 class="mb-0">Bootstrap</h4>
+              <p></p>
+            </div>
+          </div>
+
+
+          <div class="col d-flex flex-column align-items-center text-center">
+            <i class="fa-brands fa-shopify"></i>
+            <div>
+              <h4 class="mb-0">Shopify Liquid</h4>
+              <p></p>
+            </div>
+          </div>
+
+
+          <div class="col d-flex flex-column align-items-center text-center">
+            <i class="fa-brands fa-wordpress"></i>
+            <div>
+              <h4 class="mb-0">WordPress</h4>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col d-flex flex-column align-items-center text-center">
+            <i class="fa-brands fa-wix"></i>
+            <div>
+              <h4 class="mb-0">Wix</h4>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col d-flex flex-column align-items-center text-center">
+            <i class="fa-brands fa-git"></i>
+            <div>
+              <h4 class="mb-0">Git</h4>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col d-flex flex-column align-items-center text-center">
+            <i class="fa-brands fa-github"></i>
+            <div>
+              <h4 class="mb-0">GitHub</h4>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col d-flex flex-column align-items-center text-center">
+            <i class="fa-brands fa-figma"></i>
+            <div>
+              <h4 class="mb-0">Figma</h4>
+              <p></p>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     </div>
-    
-
-              
 
 
 
-              <div id="section1">
-                <div class="container-fluid">
-                <div class="text-center rounded-3">
-                  <h4 class=" ">CLIENTS</h4>
-              </div>
-
-                <div class="row row-cols-1  row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 my-5 px-4 d-flex justify-content-center align-items-center">
-
-                  <div class="col">
-                    <a href="https://www.petspurest.com/" target="_blank">
-                  <figure class="figure">
-                    <img src="https://daniellechantee.github.io/portfolio-1/images/pets-purest.png" class="figure-img img-fluid rounded img-thumbnail" alt="pets-purest">
-                    <figcaption class="figure-caption">Pets Purest (Shopify)</figcaption>
-                  </figure>
-                    </a>
-                  </div>
-
-                  <div class="col">
-                    <a href="https://www.fudgekitchen.co.uk/" target="_blank">
-                  <figure class="figure">
-                    <img src="https://daniellechantee.github.io/portfolio-1/images/fudge-kitchen.png" class="figure-img img-fluid rounded img-thumbnail" alt="fudge-kitchen">
-                    <figcaption class="figure-caption">Fudge Kitchen (Shopify)</figcaption>
-                  </figure>
-                    </a>
-                  </div>
-
-                  <div class="col">
-                    <a href="https://adiosplastic.co.uk/" target="_blank">
-                  <figure class="figure">
-                    <img src="https://daniellechantee.github.io/portfolio-1/images/adios.png" class="figure-img img-fluid rounded img-thumbnail" alt="">
-                    <figcaption class="figure-caption">Adios (Shopify)</figcaption>
-                  </figure>
-                    </a>
-                  </div>
-
-                  <div class="col">
-                    <a href="https://bottlebrush-ferments-uk.myshopify.com/" target="_blank">
-                  <figure class="figure">
-                    <img src="https://daniellechantee.github.io/portfolio-1/images/bottlebrush-ferments.png" class="figure-img img-fluid rounded img-thumbnail" alt="bottlebrush-ferments">
-                    <figcaption class="figure-caption">Bottlebrush Ferments (Shopify) - <span class="fw-bold">Password: bottlebrush</span></figcaption>
-                  </figure>
-                    </a>
-                  </div>
-
-                  <div class="col">
-                    <a href="https://bubbl.tech/" target="_blank">
-                  <figure class="figure">
-                    <img src="https://daniellechantee.github.io/portfolio-1/images/bubbl.png" class="figure-img img-fluid rounded img-thumbnail" alt="bubbl">
-                    <figcaption class="figure-caption">Bubbl (WordPress)</figcaption>
-                  </figure>
-                    </a>
-                  </div>
-
-                  <div class="col">
-                    <a href="https://www.4youngminds.com/" target="_blank">
-                  <figure class="figure">
-                    <img src="https://daniellechantee.github.io/portfolio-1/images/4-young-minds.png" class="figure-img img-fluid rounded img-thumbnail" alt="4-young-minds">
-                    <figcaption class="figure-caption">4 Young Minds (Wix)</figcaption>
-                  </figure>
-                    </a>
-                  </div>
-
-                  </div>
-                </div>
-
-                </div>
 
 
-                <div id="section2">
-                  <div class="container-fluid">
-                  <div class="text-center rounded-3">
-                    <h4 class=" ">PROJECTS</h4>
-                </div>
-  
-                  <div class="row row-cols-1  row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 my-5 px-4 d-flex justify-content-center align-items-center">
-  
-                    <div class="col">
-                      <a href="https://daniellechantee.github.io/double-vertical-slider/" target="_blank">
-                    <figure class="figure">
-                      <img src="images/double-vertical-slider.png" class="figure-img img-fluid rounded img-thumbnail" alt="double-vertical-slider">
-                      <figcaption class="figure-caption">HTML, CSS, JavaScript</figcaption>
-                    </figure>
-                      </a>
-                    </div>
-  
-                    <div class="col">
-                    <a href="https://daniellechantee.github.io/AboutMe1/" target="_blank">
-                  <figure class="figure">
-                    <img src="https://daniellechantee.github.io/portfolio-1/images/about.png" class="figure-img img-fluid rounded img-thumbnail" alt="about">
-                    <figcaption class="figure-caption">HTML, CSS</figcaption>
-                  </figure>
-                    </a>
-                  </div>
-  
-                    
-  
-                    </div>
-                  </div>
-  
-                  </div>
+  </body>
 
-                  
-              <!-- <div id="section3">
-                <div class="container-fluid">
-                <div class="text-center rounded-3">
-                  <h4 class=" ">OTHER WORK</h4>
-              </div>
-
-                <div class="row row-cols-1  row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 my-5 px-4 d-flex justify-content-center align-items-center">
-
-                  <div class="col">
-                    <a href="https://01-01-01-01.myshopify.com/" target="_blank">
-                  <figure class="figure">
-                    <img src="https://daniellechantee.github.io/portfolio-1/images/bootstrap-shopify.png" class="figure-img img-fluid rounded img-thumbnail" alt="bootstrap-shopify">
-                    <figcaption class="figure-caption">Bootstrap Sections In A Shopify Theme - <span class="fw-bold">Password: password1</span></figcaption>
-                  </figure>
-                    </a>
-                  </div>
-
-                  <div class="col">
-                    <a href="https://daniellechantee.github.io/AboutMe1/" target="_blank">
-                  <figure class="figure">
-                    <img src="https://daniellechantee.github.io/portfolio-1/images/about.png" class="figure-img img-fluid rounded img-thumbnail" alt="about">
-                    <figcaption class="figure-caption">HTML, CSS</figcaption>
-                  </figure>
-                    </a>
-                  </div>
-
-                 
-
-                  </div>
-                </div>
-
-                </div> -->
-
-                
-              <div id="section4">
-                <div class="container-fluid">
-                <div class="text-center rounded-3">
-                  <h4 class=" ">FIGMA</h4>
-              </div>
-
-                <div class="row row-cols-1  row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 my-5 px-4 d-flex justify-content-center align-items-center">
-
-                  <div class="col">
-                    <a href="https://www.figma.com/proto/FcOWPlTm2ChmxEiizrYWuH/Bottlebrush-Ferments?type=design&node-id=5-2719&t=sXf5Q4AIsjLGkSd3-0&scaling=scale-down-width&page-id=10%3A54" target="_blank">
-                  <figure class="figure">
-                    <img src="https://daniellechantee.github.io/portfolio-1/images/figma-bottlebrush-ferments.png" class="figure-img img-fluid rounded img-thumbnail" alt="figma-bottlebrush-ferments">
-                    <figcaption class="figure-caption">Figma Bottlebrush Ferments</figcaption>
-                  </figure>
-                    </a>
-                  </div>
-
-                  <div class="col">
-                    <a href="https://www.figma.com/proto/EUdVDCAFUsVUNgh30T29ET/Furniture-Store-Website?node-id=1-5&scaling=scale-down" target="_blank">
-                  <figure class="figure">
-                    <img src="https://daniellechantee.github.io/portfolio-1/images/figma-example-furniture-store.png" class="figure-img img-fluid rounded img-thumbnail" alt="figma-example-furniture-store">
-                    <figcaption class="figure-caption">Figma Example Furniture Store Design</figcaption>
-                  </figure>
-                    </a>
-                  </div>
-
-                  
-
-                  </div>
-                </div>
-
-                </div>
-
-              
-
-               
-     
-<script>
-  const typedTextSpan = document.querySelector(".custom-typed-text");
-const cursorSpan = document.querySelector(".custom-cursor");
-
-const textArray = ["Frontend Developer"];
-const typingDelay = 200;
-const erasingDelay = 100;
-const newTextDelay = 2000; // Delay between current and next text
-let textArrayIndex = 0;
-let charIndex = 0;
-
-function type() {
-  if (charIndex < textArray[textArrayIndex].length) {
-    if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
-    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
-    charIndex++;
-    setTimeout(type, typingDelay);
-  } else {
-    cursorSpan.classList.remove("typing");
-    setTimeout(erase, newTextDelay);
-  }
-}
-
-function erase() {
-  if (charIndex > 0) {
-    if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
-    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
-    charIndex--;
-    setTimeout(erase, erasingDelay);
-  } else {
-    cursorSpan.classList.remove("typing");
-    textArrayIndex++;
-    if (textArrayIndex >= textArray.length) textArrayIndex = 0;
-    setTimeout(type, typingDelay + 1100);
-  }
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-  // On DOM Load initiate the effect
-  if (textArray.length) setTimeout(type, newTextDelay + 250);
-});
-
-</script>
-</body>
 </html>

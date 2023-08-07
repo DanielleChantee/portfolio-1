@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+
+  }
+
+h1 {
+    font-family: 'Playfair', serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+button {
+    border: solid;
+    background-color: transparent;
+    padding: 0;
+    animation: shadowAnimation 2s infinite alternate;
+    transition: background-color 0.7s ease;
+}
+
+
+@keyframes shadowAnimation {
+    0% {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    }
+}
+
+button:hover {
+    border-color: black;
+    background-color: black;
+}
+
+button a {
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+
+button a:hover {
+    color: white;
+}
+
+h1, h2 {
+    line-height: 70px;
+}
+
+nav {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.nav-item:hover {
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.introduction-section {
+    background-size: cover;
+    background-position: center center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0; 
+    margin: 0; 
+  }
+
+.col {
+    text-align: center;
+}
+  /* Portfolio */
+
+#portfolio h2, 
+#portfolio h4 {
+    color: white;
+}
+
+#portfolio p {
+    color: lightgray;
+    font-size: 14px;
+}
+
+h4 {
+    font-family: 'Playfair', serif;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image-thumbnail {
+    border-radius: 0 !;
+}
+
+
+
+/* @media screen and (min-width: 990px) {
+    #projects, #figma, #skills {
+        height: 100vh;
+    }
+} */
+
+a img {
+    transition: transform 0.5s ease-out;
+}
+
+a img:hover {
+    box-shadow: 0px 0px 40px #ffffff;
+    transform: scale(1.05);
+}
+
+/* Skills */
+#skills i {
+    font-size: 50px;
+}
+
+#skills h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+#skills .col {
+    transition: transform 0.5s ease-out;
+}
+
+#skills .col:hover {
+    text-shadow: 0px 0px 40px #000000;
+    transform: scale(1.05);
+}
