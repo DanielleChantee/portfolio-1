@@ -145,3 +145,54 @@ a img:hover {
     text-shadow: 0px 0px 40px #000000;
     transform: scale(1.05);
 }
+
+
+
+
+/* Text Animation */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+.custom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+}
+
+/* .custom-container p {
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+} */
+
+/* .custom-container h2 span.custom-typed-text {
+  
+} */
+
+.custom-container h2 span.custom-cursor {
+  display: inline-block;
+  background-color: #000000;
+  margin-left: 0.1rem;
+  width: 2px;
+  line-height: 50px;
+  animation: custom-blink 1s infinite;
+}
+
+.custom-container h2 span.custom-cursor.typing {
+  animation: none;
+}
+
+@keyframes custom-blink {
+  0%  { background-color: #000000; }
+  49% { background-color: #000000; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #000000; }
+}
